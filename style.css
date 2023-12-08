@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    background-color: rgb(224, 224, 224);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    border-width: 4px;
+    border-style: outset;
+}
+
+.cont-header{
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(to right, darkblue, blue);
+    color: white;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.form-cont{
+    background-color: rgb(224, 224, 224);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    margin-top: 2em;
+}
+
+.input{
+    margin-bottom: 2.5em;
+    font-size: 16px;
+    border-style: inset;
+    background-color: white;
+    font-family: inherit;
+}
+
+input:focus{
+    border-style: inset;
+}
+
+#save-txt{
+    border-style: outset;
+    border-width: 2px;
+    font-size: 16px;
+    border-color: lightgray;
+    background-color: rgb(173, 170, 170);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
